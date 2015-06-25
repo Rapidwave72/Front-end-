@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Sodearly.com</title>
+		<meta name="description" content="Natural Language Form with custom text input and drop-down lists" />
+		<meta name="keywords" content="Natural Language UI, sentence form, text input, contenteditable, html5, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="nl-blurred">
+		<div class="container demo-1">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/MorphingDevices/"><span>Back to site</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15139"><span>Refresh Buyers Club</span></a></span>
+			</div>
+			<header>
+				<h1>Sodearly Buyers Club<span>Fill in the blank spaces to get access</span></h1>	
+			</header>
+			<div class="main clearfix">
+				<form id="nl-form" class="nl-form">
+					I am a  
+					<select>
+						<option value="1" selected>click here to select title</option>
+						<option value="2">Buyer</option>
+						<option value="2">Merchandiser</option
+						<option value="3">Merchandiser</option>
+						<option value="4">Inventory manager </option>
+						<option value="2">Head of Accounts </option>
+						<option value="4">Magazine Editor</option>
+					</select>
+					<br />at 
+					<select>
+						<option value="1" selected>company</option>
+						<option value="2">Browns Fashion</option>
+						<option value="3">Dover Street Market</option>
+						<option value="4">Joseph</option>
+						<option value="2">Matches Fashion</option>
+						<option value="2">Net-a-porter</option>
+						<option value="2">Selfridges</option>
+						<option value="2">Stylebop</option>
+					</select>
+					.
+					<br />Today I plan to 
+					<select>
+						<option value="1" selected>Select action</option>
+						<option value="1">Browse the linesheet.</option>
+					 	<option value="1">Place a sample request.</option>
+					 	<option value="2">Process an order.</option>
+						<option value="3">Get an update on my order.</option>
+						<option value="3">Re-order stocked products.</option>
+					 	<option value="3">Download media kits.</option>
+						<option value="3">Explore the brand.</option>
+						<option value="3">Contact Sales Rep.</option>
+					</select>My work email is <input type="text" value="" placeholder="enter email here" data-subline="provide a company e-mail address : <em>name@company.com</em> or <em>hello@sodearly.com</em>"/>
+					<div class="nl-submit-wrap">
+						<button class="nl-submit" type="submit">Enter</button>
+						</select>
+					.
+					<br />I would appreciate if your sales rep could contact us to clarify the enquiry. 
+					<select>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</div>
+		</div><!-- /container -->
+		<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+	</body>
+</html>
